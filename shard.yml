@@ -1,0 +1,21 @@
+name: crystal-pg-issue-230
+version: 0.1.0
+
+authors:
+  - noice <noice@email.cz>
+
+targets:
+  app:
+    main: src/main.cr
+
+crystal: 1.0.0
+
+dependencies:
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.10.1
+  pg:
+    git: https://github.com/will/crystal-pg.git
+    version: 0.23.2
+
+license: MIT
